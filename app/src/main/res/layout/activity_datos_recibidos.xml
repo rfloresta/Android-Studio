@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.romario.componentes.DatosRecibidosActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="Datos Recibidos" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="38dp"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:text="Usuario:" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/txtUsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView8"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_toRightOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/txtPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_toRightOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/btnRegresar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Regresar" />
+
+</RelativeLayout>

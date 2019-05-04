@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.romario.componentes.ComponentesActivity">
+
+    <Button
+        android:id="@+id/btnMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Mensaje"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="367dp"
+        android:layout_above="@+id/btnRegresar"
+        android:layout_alignLeft="@+id/btnRegresar"
+        android:layout_alignStart="@+id/btnRegresar"
+        android:layout_marginBottom="21dp" />
+
+    <Button
+        android:id="@+id/btnSetTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Texto"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="90dp"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/btnRegresar"
+        android:layout_alignStart="@+id/btnRegresar" />
+
+    <Button
+        android:id="@+id/btnVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="verde"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="198dp"
+        android:layout_alignBaseline="@+id/btnAmarillo"
+        android:layout_alignBottom="@+id/btnAmarillo"
+        android:layout_alignRight="@+id/btnRegresar"
+        android:layout_alignEnd="@+id/btnRegresar" />
+
+    <Button
+        android:id="@+id/btnAmarillo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amarillo"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="198dp"
+        android:layout_alignBaseline="@+id/btnAzul"
+        android:layout_alignBottom="@+id/btnAzul"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azul"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="198dp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/txtDefault"
+        android:layout_alignLeft="@+id/btnSetTexto"
+        android:layout_alignStart="@+id/btnSetTexto" />
+
+    <ImageView
+        android:id="@+id/viewVerde"
+        android:layout_width="99dp"
+        android:layout_height="71dp"
+        app:srcCompat="@android:color/background_light"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="281dp"
+        android:layout_alignTop="@+id/viewAmarillo"
+        android:layout_alignLeft="@+id/btnVerde"
+        android:layout_alignStart="@+id/btnVerde" />
+
+    <ImageView
+        android:id="@+id/viewAmarillo"
+        android:layout_width="99dp"
+        android:layout_height="71dp"
+        app:srcCompat="@android:color/background_light"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="269dp"
+        android:layout_alignTop="@+id/viewAzul"
+        android:layout_alignLeft="@+id/btnAmarillo"
+        android:layout_alignStart="@+id/btnAmarillo" />
+
+    <ImageView
+        android:id="@+id/viewAzul"
+        android:layout_width="99dp"
+        android:layout_height="71dp"
+        app:srcCompat="@android:color/background_light"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="269dp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/btnAzul"
+        android:layout_alignLeft="@+id/btnAzul"
+        android:layout_alignStart="@+id/btnAzul" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCompo"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="39dp"
+        android:layout_marginTop="45dp"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="331dp"
+        android:layout_height="40dp"
+        android:text="REGRESAR"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="459dp"
+        android:layout_marginBottom="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/btnSetTexto"
+        android:layout_alignLeft="@+id/btnSetTexto"
+        android:layout_alignStart="@+id/btnSetTexto"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+</RelativeLayout>

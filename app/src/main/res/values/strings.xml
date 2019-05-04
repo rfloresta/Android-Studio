@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Prueba Android</string>
+    <string name="btnCompo">Prueba Componentes</string>
+    <string name="btnLogin">Login</string>
+    <string name="txtPrincipal">Componentes</string>
+    <string name="title_activity_componentes">ComponentesActivity</string>
+    <string name="txtLogin">Login</string>
+    <string name="txtUsu">Usuario:</string>
+    <string name="txtPass">Password:</string>
+    <string name="txtCompo">Prueba Componentes</string>
+</resources>
